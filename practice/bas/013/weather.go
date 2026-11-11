@@ -4,9 +4,9 @@ package practice
 func Weather(t int) string {
 	if t < 20 {
 		return "too cold"
-	}
-	if t <= 30 {
+	} else if t <= 30 {
 		return "perfect"
+	} else {
+		return "so hot"
 	}
-	return "so hot"
 }
