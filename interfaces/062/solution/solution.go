@@ -18,5 +18,4 @@ type rect struct {
 	width, height float64
 }
 
-func main() {
-}
+func main() {}
